@@ -1,2 +1,2 @@
-// our base file for frontened is from LINKS/dashboards/dashboard.html
-and for backened is index.js
+// our base file for frontned is from FINAL/dashboards/dashboard.html
+and for backenD is index.js
