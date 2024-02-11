@@ -1,0 +1,68 @@
+/* styles.css */
+
+/* Job Slider */
+.job-slider {
+    position: relative;
+    max-width: 600px;
+    margin: 50px auto; /* Center the slider horizontally */
+    overflow: hidden;
+  }
+  
+  .job-listings {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    justify-content: center; /* Center the job cards horizontally */
+  }
+  
+  .job-card {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+    max-width: 300px; /* Limit the maximum width of each job card */
+    transition: transform 0.3s ease-in-out; /* Add smooth transition */
+  }
+  
+  .job-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .job-card h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .job-card p {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  /* Prev/Next Buttons */
+  .prev-btn,
+  .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+  

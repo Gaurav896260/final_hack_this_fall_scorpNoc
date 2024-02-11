@@ -1,0 +1,276 @@
+.logo-icon {
+  height: 31.6px;
+  width: 44px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.pwd-help {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.help-frame {
+  width: 153px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 14px;
+}
+.about-us,
+.home {
+  position: relative;
+  letter-spacing: 0.14em;
+}
+.about-us {
+  white-space: nowrap;
+}
+.home-about-us-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-xl);
+}
+.environment-frame {
+  width: 166px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 5px 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-raleway);
+}
+.logo-frame {
+  width: 743px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: 18px;
+  color: var(--color-black);
+  font-family: var(--font-rubik);
+}
+.the-noise-from {
+  margin: 0;
+  width: 718px;
+  height: 108px;
+  position: relative;
+  font-size: inherit;
+  line-height: 36px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  padding-right: var(--padding-xl);
+}
+.captionersubtitler-adding-ca,
+.computer-programmer-writing,
+.graphic-designer-creating,
+.occupational-therapist-helpin,
+.photographer-capturing-images,
+.physical-therapist-assistant,
+.sign-language-interpreter1,
+.social-media-manager,
+.video-editor-editing,
+.web-developer-building {
+  margin: 0;
+}
+.sign-language-interpreter-container {
+  margin: 0;
+  height: 720px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 36px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.hearing-impaired-alert,
+.sign-language-interpreter,
+.subframe-a,
+.subframe-b {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.sign-language-interpreter {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 7px;
+  box-sizing: border-box;
+  font-size: 24px;
+  color: var(--color-black);
+}
+.hearing-impaired-alert,
+.subframe-a,
+.subframe-b {
+  flex-direction: column;
+}
+.hearing-impaired-alert {
+  align-self: stretch;
+  gap: var(--gap-21xl);
+}
+.subframe-a,
+.subframe-b {
+  box-sizing: border-box;
+}
+.subframe-b {
+  align-self: stretch;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-42xl);
+}
+.subframe-a {
+  flex: 1;
+  padding: 0 0 var(--padding-xl);
+}
+.shadow-vector-child {
+  height: 1026px;
+  width: 490px;
+  position: relative;
+  border-radius: 43.97px 0 0 43.97px;
+  background-color: var(--color-dodgerblue);
+  display: none;
+  max-width: 100%;
+}
+.deaf-icon,
+.shadow-icon {
+  position: absolute;
+  top: 765px;
+  left: 0;
+  width: 371px;
+  height: 33px;
+  z-index: 1;
+}
+.deaf-icon {
+  top: 0;
+  left: 30px;
+  width: 291.6px;
+  height: 789px;
+  overflow: hidden;
+  z-index: 2;
+}
+.deaf-frame {
+  height: 798px;
+  width: 371px;
+  position: relative;
+  max-width: 100%;
+}
+.shadow-vector {
+  width: 490px;
+  flex: 1;
+  border-radius: 43.97px 0 0 43.97px;
+  background-color: var(--color-dodgerblue);
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-89xl) 24px;
+  max-width: 116%;
+  flex-shrink: 0;
+}
+.hearing-impaired,
+.shadow-vector,
+.user-frame {
+  display: flex;
+  box-sizing: border-box;
+}
+.user-frame {
+  height: 1024px;
+  width: 423px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0;
+  min-width: 423px;
+  max-width: 100%;
+}
+.hearing-impaired {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-89xl);
+  gap: var(--gap-74xl);
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 36px;
+  color: #ec5863;
+  font-family: var(--font-rubik);
+}
+@media screen and (max-width: 1125px) {
+  .user-frame {
+    flex: 1;
+  }
+  .hearing-impaired {
+    flex-wrap: wrap;
+    padding: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .the-noise-from {
+    font-size: 29px;
+    line-height: 29px;
+  }
+  .subframe-b {
+    gap: var(--gap-42xl);
+  }
+  .shadow-vector {
+    padding-top: var(--padding-51xl);
+    padding-bottom: var(--padding-51xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .subframe-a {
+    min-width: 100%;
+  }
+  .shadow-vector {
+    padding-top: var(--padding-26xl);
+    padding-bottom: var(--padding-26xl);
+    box-sizing: border-box;
+  }
+  .user-frame {
+    min-width: 100%;
+  }
+  .hearing-impaired {
+    gap: var(--gap-74xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .the-noise-from {
+    font-size: 22px;
+    line-height: 22px;
+  }
+  .sign-language-interpreter-container {
+    font-size: 19px;
+    line-height: 29px;
+  }
+  .hearing-impaired-alert {
+    gap: var(--gap-21xl);
+  }
+  .subframe-b {
+    gap: var(--gap-42xl);
+  }
+  .hearing-impaired {
+    gap: var(--gap-74xl);
+  }
+}

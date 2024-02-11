@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-rubik: Rubik;
+  --body-1-regular: Lexend;
+  --light-body: "Source Sans Pro";
+
+  /* font sizes */
+  --font-size-2xs-9: 10.9px;
+  --font-size-5xs-5: 7.5px;
+  --font-size-xl-5: 20.5px;
+  --body-1-regular-size: 16px;
+  --light-body-size: 17px;
+  --label-regular-size: 11px;
+
+  /* Colors */
+  --white-500: #fff;
+  --color-dodgerblue: #4285f4;
+  --primary-500: #7152f3;
+  --dark-500: #16151c;
+
+  /* Gaps */
+  --gap-6xs-8: 6.8px;
+  --gap-12xs-7: 0.7px;
+
+  /* Paddings */
+  --padding-sm-7: 13.7px;
+  --padding-2xs-9: 10.9px;
+  --padding-8xs-8: 4.8px;
+  --padding-base: 16px;
+
+  /* Border radiuses */
+  --br-6xs-8: 6.8px;
+  --br-3xs: 10px;
+  --br-9xs: 4px;
+}

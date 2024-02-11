@@ -1,0 +1,412 @@
+.background {
+  height: 1024px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-indianred);
+  display: none;
+  max-width: 100%;
+}
+.login-page-child {
+  width: 592px;
+  max-height: 100%;
+  object-fit: contain;
+  max-width: 100%;
+}
+.login-page-child,
+.logo-icon,
+.pwd-help {
+  position: relative;
+  z-index: 1;
+}
+.logo-icon {
+  width: 44px;
+  height: 31.6px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.pwd-help {
+  margin: 0;
+  font-size: 36px;
+  line-height: 16.41px;
+  font-weight: 400;
+  font-family: var(--font-rubik);
+  color: var(--white-500);
+  text-align: left;
+}
+.logo-frame,
+.pwd-help-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pwd-help-text {
+  flex-direction: column;
+  gap: 16px;
+}
+.logo-frame {
+  align-self: stretch;
+  flex-direction: row;
+}
+.welcomebackfabiana,
+.welcomebackfabiana1 {
+  align-self: stretch;
+  position: relative;
+  font-family: var(--font-rubik);
+  color: var(--white-500);
+  text-align: left;
+  z-index: 1;
+}
+.welcomebackfabiana {
+  font-size: var(--font-size-xl-5);
+  line-height: 27.34px;
+  font-weight: 600;
+}
+.welcomebackfabiana1 {
+  font-size: 12px;
+  line-height: 16.41px;
+  font-weight: 300;
+}
+.secondary-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.text,
+.text1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xs-5);
+  line-height: 10.94px;
+  font-weight: 300;
+  font-family: var(--font-lexend);
+  color: var(--color-dodgerblue);
+  text-align: left;
+}
+.text1 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-size: var(--font-size-2xs-9);
+  background-color: transparent;
+  height: 17px;
+  line-height: 16.41px;
+  color: var(--white-500);
+  display: inline-block;
+  min-width: 169px;
+  white-space: nowrap;
+}
+.label-text1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.68px;
+}
+.icon {
+  height: 16.4px;
+  width: 16.4px;
+  position: relative;
+  display: none;
+}
+.input,
+.label-text {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.label-text {
+  flex-direction: row;
+  align-items: center;
+  gap: 6.84px;
+}
+.input {
+  border-radius: 6.84px;
+  border: 0.7px solid var(--white-500);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 4.78515625px var(--padding-2xs) 4.78515625px 10.9375px;
+}
+.text2,
+.text3 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xs-5);
+  line-height: 10.94px;
+  font-weight: 300;
+  font-family: var(--font-lexend);
+  color: var(--color-dodgerblue);
+  text-align: left;
+}
+.text3 {
+  width: calc(100% - 0px);
+  border: 0;
+  outline: 0;
+  font-size: var(--font-size-2xs-9);
+  background-color: transparent;
+  height: 17px;
+  line-height: 16.41px;
+  color: var(--white-500);
+  display: inline-block;
+  min-width: 155px;
+}
+.text-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.68px;
+}
+.icon1 {
+  height: 16.4px;
+  width: 16.4px;
+  position: relative;
+}
+.frame-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6.84px;
+}
+.input1 {
+  border-radius: 6.84px;
+  border: 0.7px solid var(--white-500);
+  align-items: flex-start;
+  padding: 4.78515625px var(--padding-2xs) 4.78515625px 10.9375px;
+}
+.button-frame,
+.checkbox-instance,
+.input-group-frame,
+.input1,
+.state-instance {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.state-instance {
+  align-items: flex-start;
+  gap: 13.67px;
+}
+.button-frame,
+.checkbox-instance,
+.input-group-frame {
+  align-items: flex-end;
+}
+.button-frame,
+.input-group-frame {
+  align-items: flex-start;
+}
+.input-group-frame {
+  z-index: 1;
+}
+.button-frame {
+  padding: 0 0 var(--padding-13xl);
+  gap: 7px;
+}
+.state {
+  accent-color: #4285f4;
+  margin: 0;
+  height: 16.4px;
+  width: 16.4px;
+  position: relative;
+  border-radius: 2.73px;
+}
+.checkbox1 {
+  position: relative;
+  font-size: var(--font-size-2xs-9);
+  line-height: 16.41px;
+  font-weight: 300;
+  font-family: var(--font-lexend);
+  color: var(--white-500);
+  text-align: left;
+}
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 9px 0 0;
+  gap: var(--gap-5xs);
+  z-index: 1;
+}
+.button1 {
+  position: relative;
+  font-size: var(--font-size-2xs-9);
+  line-height: 16.41px;
+  font-weight: 300;
+  font-family: var(--font-lexend);
+  color: var(--white-500);
+  text-align: left;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-xl) var(--padding-2xs)
+    var(--padding-2xl);
+  background-color: var(--color-dodgerblue);
+  align-self: stretch;
+  border-radius: 6.84px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.button2:hover,
+.button:hover {
+  background-color: var(--color-cornflowerblue);
+}
+.welcomebackfabiana2 {
+  width: 200px;
+  position: relative;
+  font-size: var(--font-size-xl-5);
+  line-height: 27.34px;
+  font-weight: 600;
+  font-family: var(--font-rubik);
+  color: var(--white-500);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.fabiana-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.button3 {
+  position: relative;
+  font-size: var(--font-size-2xs-9);
+  line-height: 16.41px;
+  font-weight: 300;
+  font-family: var(--font-lexend);
+  color: var(--white-500);
+  text-align: left;
+}
+.button2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-xl) var(--padding-2xs)
+    var(--padding-2xl);
+  background-color: var(--color-dodgerblue);
+  align-self: stretch;
+  border-radius: 6.84px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.welcomebackfabiana3 {
+  position: relative;
+  font-size: 9.6px;
+  line-height: 15.04px;
+  font-weight: 800;
+  font-family: var(--font-lexend);
+  color: #ffffff;
+  text-align: right;
+  z-index: 1;
+}
+.login-frame,
+.secondary-button {
+  align-self: stretch;
+  flex-direction: column;
+}
+.secondary-button {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 3px;
+}
+.login-frame {
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.inner-frame,
+.login-frame,
+.login-page,
+.main-frame {
+  display: flex;
+  justify-content: flex-start;
+}
+.inner-frame {
+  margin: 0;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-31xl);
+}
+.login-page,
+.main-frame {
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.main-frame {
+  width: 307px;
+  flex-direction: column;
+  padding: 37px 0 0;
+  min-width: 307px;
+}
+.login-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-indianred);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 193px 128px 209px;
+  gap: var(--gap-185xl);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1300px) {
+  .login-page-child,
+  .main-frame {
+    flex: 1;
+  }
+  .login-page {
+    flex-wrap: wrap;
+    gap: var(--gap-185xl);
+    padding-left: var(--padding-45xl);
+    padding-right: var(--padding-45xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .pwd-help {
+    font-size: 29px;
+    line-height: 13px;
+  }
+  .login-page {
+    gap: var(--gap-185xl);
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .pwd-help {
+    font-size: 22px;
+    line-height: 10px;
+  }
+  .welcomebackfabiana,
+  .welcomebackfabiana2 {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+  .inner-frame {
+    gap: var(--gap-31xl);
+  }
+  .login-page {
+    gap: var(--gap-185xl);
+  }
+}
